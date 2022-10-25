@@ -1,0 +1,519 @@
+/*public code*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Bungee+Spice&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  background-image: url('img/shutterstock_277750193.jpg');
+  background-size: cover;
+  color: aliceblue;
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+}
+
+.navbar {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.navbar .logo {
+  float: left;
+  width: 40%;
+
+}
+
+.navbar .logo img {
+  width: 30%;
+}
+
+.navbar .nav {
+  float: left;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.navbar .nav li {
+  display: inline-block;
+  margin: 10px;
+
+}
+
+.header_content {
+  margin-top: 60px;
+}
+
+.header h1 {
+  font-family: 'Alegreya', serif;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.header p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.header button {
+  padding: 15px 30px;
+  margin-left: 10px;
+  border: none;
+}
+
+.header .btn-learn {
+  color: white;
+  background-color: rgb(236, 187, 114);
+}
+
+.header .btn-learn:hover {
+  color: black;
+  background-color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.about {
+  overflow: hidden;
+
+}
+
+.pic-about {
+  float: left;
+  width: 40%;
+}
+
+.pic-about img {
+
+  width: 90%;
+}
+
+.about_contect {
+  float: left;
+  width: 60%;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.about_contect h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.about_contect h3 {
+  color: rgb(240, 160, 63);
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 20px;
+}
+
+.about_contect p {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  line-height: 30px;
+}
+
+.about_contect ul {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  padding-bottom: 40px;
+
+}
+
+.about_contect ul i {
+  border-radius: 50%;
+  background-color: rgb(240, 160, 63);
+  color: aliceblue;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  font-size: 20px;
+
+}
+
+.review,
+.location {
+  background-color: rgb(228, 235, 240);
+  overflow: hidden;
+  margin-top: 30px;
+
+
+}
+
+.contact_review,
+.contact_location {
+  float: left;
+  width: 60%;
+
+  margin-top: 20px;
+
+}
+
+.contact_review h2,
+.contact_location h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+
+.contact_review h3 {
+  margin-bottom: 15px;
+  color: rgb(240, 160, 63);
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+
+}
+
+.contact_review p,
+.contact_location p {
+  margin-bottom: 15px;
+  line-height: 30px;
+  width: 70%;
+}
+
+.contact_review i,
+.contact_location i {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  color: rgb(240, 160, 63);
+
+
+}
+
+.img_review,
+.img_location {
+
+  float: left;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.img_review img,
+.img_location iframe {
+
+  width: 100%;
+}
+
+.img_location iframe {
+
+  height: 300px;
+}
+
+.cover {
+  background-image: url('img/shutterstock_280369721.jpg');
+  padding-top: 250px;
+  padding-bottom: 50px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.menu {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.menu h3 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: rgb(240, 160, 63);
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.contact_menu {
+  overflow: hidden;
+}
+
+.dishes {
+
+  float: left;
+  width: 33.33%;
+  margin-bottom: 15px;
+
+}
+
+.dishes img {
+  width: 90%;
+  margin-bottom: 15px;
+
+}
+
+.dishes h4 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.dishes p {
+
+  width: 70%;
+  margin: auto;
+}
+
+.contact_menu a {
+  display: inline-block;
+  background-color: rgb(240, 160, 63);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.location {
+  padding-bottom: 40px;
+}
+
+.footer {
+  background-color: rgb(51, 50, 50);
+  color: aliceblue;
+  padding-top: 30px;
+
+
+}
+
+.footer-contact {
+  overflow: hidden;
+
+}
+
+.footer .item {
+  float: left;
+  width: 25%;
+  font-size: 14px;
+
+}
+
+.footer .item h2 {
+  margin-bottom: 30px;
+}
+
+.footer .item p {
+  margin-bottom: 15px;
+  width: 75%;
+  color: rgb(172, 170, 170);
+}
+
+.footer .item li {
+  margin-bottom: 15px;
+  color: rgb(172, 170, 170);
+  margin-right: 15px;
+}
+
+.footer .item a {
+  color: rgb(172, 170, 170);
+}
+
+.footer .item a::before {
+  content: "\f054";
+  font-family: fontAwesome;
+  font-size: 12px;
+  margin-right: 10px;
+
+}
+
+.footer .item i {
+
+  margin-right: 15px;
+}
+
+.second-footer {
+  background-color: rgb(37, 37, 37);
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.second-footer p {
+  font-size: 14px;
+  margin: auto;
+  width: 17%;
+  color: rgb(172, 170, 170);
+  padding-bottom: 30px;
+
+}
+
+.second-footer .icon i {
+  margin-right: 10px;
+  background-color: rgb(51, 50, 50);
+  color: rgb(172, 170, 170);
+  padding: 15px;
+  border-radius: 20%;
+}
+
+.second-footer .icon i:hover {
+  background-color: rgb(99, 108, 231);
+  color: rgb(255, 255, 255);
+
+}
+
+@media (max-width:567px) {
+
+  .navbar .logo {
+    float: none;
+    width: 90%;
+    margin: auto;
+
+
+  }
+
+  .navbar .nav {
+    float: none;
+    width: 90%;
+    margin: auto;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+
+  .navbar .nav li {
+    margin: 5px;
+
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .header p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .header_content img {
+    width: 75%;
+  }
+
+  .header button {
+    padding: 15px 30px;
+    margin-left: 10px;
+    border: none;
+  }
+
+  .header button {
+    padding: 10px 20px;
+  }
+
+  .pic-about {
+    float: none;
+    width: 100%;
+  }
+
+  .about_contect {
+    float: none;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .about_contect h2 {
+    font-size: 25px;
+
+  }
+
+  .about_contect p {
+    width: 100%;
+
+  }
+
+  .about_contect ul {
+    width: 100%;
+
+  }
+
+  .about_contect ul i {
+
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    margin-right: 10px;
+
+  }
+
+  .about_contect ul {
+
+    font-size: 13px;
+
+  }
+
+  .contact_review,
+  .contact_location {
+    float: none;
+    width: 100%;
+  }
+
+  .img_review,
+  .img_location {
+    float: none;
+    width: 100%;
+  }
+
+  .dishes {
+
+    float: none;
+    width: 100%;
+
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .footer .item {
+    float: none;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .footer .item p {
+    width: 100%;
+  }
+
+  .second-footer p {
+    font-size: 16px;
+    width: 53%;
+  }
+
+
+
+}
+
+
+  
+
+ 
